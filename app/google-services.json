@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "797903726329",
+    "firebase_url": "https://mychat2-249f4.firebaseio.com",
+    "project_id": "mychat2-249f4",
+    "storage_bucket": "mychat2-249f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797903726329:android:ecda3162663a6568",
+        "android_client_info": {
+          "package_name": "musictag.hytham1.com.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797903726329-qksl1ek7kn95rls8ar4vre661p3vgt0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "musictag.hytham1.com.mychat",
+            "certificate_hash": "8e2325262f259851aaeb5f32486e042740b06cdd"
+          }
+        },
+        {
+          "client_id": "797903726329-b2iik0dabcgb49hhq7aa4lto3k4ge2q2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU-sCve4zxptYRcLUvNxTaLAhIZ3UP0Jw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797903726329-b2iik0dabcgb49hhq7aa4lto3k4ge2q2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="musictag.hytham1.com.mychat.StatusActivity">
+
+    <include
+        android:id="@+id/status_app_bar"
+        layout="@layout/app_bar_layout" />
+
+    <EditText
+        android:id="@+id/status_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status_app_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:maxLines="3"
+        android:maxLength="100"
+        android:ems="10"
+        android:hint="Change status here..."
+        android:inputType="textMultiLine"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/btn_save_status_change"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@color/colorPrimary"
+        android:text="Save Changes"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
